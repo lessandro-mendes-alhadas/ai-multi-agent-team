@@ -2,6 +2,8 @@
 
 Welcome to the **Multi-Agent Collaboration for Financial Analysis** repository! This project showcases how multiple intelligent agents can work together to solve complex financial tasks. 🚀
 
+![Solutions Overview](/images/crewai.gif)
+
 ## 📋 Prerequisites
 
 Before running the code, make sure you have the following set up:
