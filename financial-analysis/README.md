@@ -11,7 +11,7 @@ Before running the code, make sure you have the following set up:
 ### 🔑 API Keys
 
 1. **Anthropic API Key**:
-   - Visit [Anthropic's website](https://www.anthropic.com/) to create an account and generate an API key.
+   - Visit [Anthropic's website](https://console.anthropic.com/ to create an account and generate an API key.
    - Add the key to a `.env` file as `ANTHROPIC_API_KEY`.
 
 2. **Serper API Key** (or other search APIs):
