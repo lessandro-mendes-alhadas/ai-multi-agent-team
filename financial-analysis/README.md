@@ -83,7 +83,7 @@ Here are the 4 agents designed to collaborate in this project:
 
 ## ✨ Key Features
 
-- **Flexibility**: Swap out Anthropic Claude for other LLMs like OpenAI or Google Bard.
+- **Flexibility**: Swap out Anthropic Claude for other LLMs like Llama or DeepSeek.
 - **Scalable Workflows**: Easily extend the solution to handle different domains beyond financial analysis.
 - **Modular Utilities**: Customize the `utils` module for additional functionality.
 
