@@ -9,12 +9,12 @@ def load_env():
 
 def get_claude_api_key():
     load_env()
-    claude_api_key = "YOUR API KEY"
+    claude_api_key = "your_anthropic_api_key_here"
     return claude_api_key
 
 def get_serper_api_key():
     load_env()
-    serper_api_key = "YOUR API KEY"
+    serper_api_key = "your_serper_api_key_here"
     return serper_api_key
 
 
