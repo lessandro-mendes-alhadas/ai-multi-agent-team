@@ -14,6 +14,10 @@ multi-agent/
 
 ### 1. Financial Analysis Agents
 
+<p align="center">
+  <img src="financial-analysis/images/01-crewai-overview.png" alt="AI Financial Crew Breakdown" width="600">
+</p>
+
 A sophisticated multi-agent system designed for financial analysis and trading strategy development. The system employs four specialized agents working in collaboration:
 
 * **Data Analyst Agent**: Processes and analyzes financial data
@@ -32,6 +36,10 @@ A sophisticated multi-agent system designed for financial analysis and trading s
 ### 2. Job Hunting Crew
 
 An AI-powered system that optimizes job applications and interview preparation using Amazon Bedrock and CrewAI. The system features four specialized agents:
+
+<p align="center">
+  <img src="jobhunting-crew/images/02_aicrew-4agents.png" alt="AI Crew Intereview Prep Breakdown" width="600">
+</p>
 
 * **Job Researcher**: Analyzes job postings and requirements
 * **Personal Profiler**: Evaluates candidate's strengths
