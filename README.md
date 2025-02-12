@@ -81,7 +81,7 @@ You can customize the paths to these files using the `dotenv_paths` parameter in
 from utils import Environment  # Replace utils
 
 Environment.load_env(dotenv_paths=['config/.env', '.env.defaults'])
-
+```
 
 
 ## 📜 License
