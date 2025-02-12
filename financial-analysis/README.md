@@ -8,19 +8,6 @@ Welcome to the **Multi-Agent Collaboration for Financial Analysis** repository! 
 
 Before running the code, make sure you have the following set up:
 
-### 🔑 API Keys
-
-1. **Anthropic API Key**:
-   - Visit [Anthropic's website](https://console.anthropic.com/ to create an account and generate an API key.
-   - Add the key to a `.env` file as `ANTHROPIC_API_KEY`.
-
-2. **Serper API Key** (or other search APIs):
-   - Sign up at [Serper](https://serper.dev/) to obtain an API key.
-   - Add the key to the `.env` file as `SERPER_API_KEY`.
-
-3. **Optional: Other LLMs**
-   - While this repository uses Anthropic Claude, you can integrate other large language models (LLMs) by modifying the code accordingly. Ensure the appropriate API keys are added to the `.env` file.
-
 ### 🛠 Environment Setup
 
 - Install the required libraries:
@@ -32,9 +19,24 @@ Before running the code, make sure you have the following set up:
 
 - Use either:
   - **Jupyter Notebook**: Install Jupyter Notebook and open the provided `.ipynb` file.
+  - **VS Code (Jupyter Extension)**: Open the `.ipynb` file in [Visual Studio Code](https://code.visualstudio.com/) with the **Jupyter** extension for an integrated coding experience.  
   - **Google Colab**: Upload the `.ipynb` file to [Google Colab](https://colab.research.google.com/) for an easy-to-use cloud environment.
   - **Amazon SageMaker**: Use [Amazon SageMaker Studio](https://aws.amazon.com/sagemaker/studio/) for a managed and scalable machine learning environment.
 
+### 🔑 API Keys
+
+1. **Anthropic API Key**:
+   - Visit [Anthropic's website](https://console.anthropic.com/) to create an account and generate an API key.
+   - Rename `sample.env` to `.env`
+   - Add the key to a `.env` file as `ANTHROPIC_API_KEY`.
+
+2. **Serper API Key** (or other search APIs):
+   - Sign up at [Serper](https://serper.dev/) to obtain an API key.
+   - Add the key to the `.env` file as `SERPER_API_KEY`.
+
+3. **Optional: Other LLMs**
+   - While this repository uses Anthropic Claude, you can integrate other large language models (LLMs) by modifying the code accordingly. Ensure the appropriate API keys are added to the `.env` file.
+  
 
 ## 📝 Solution Overview
 
@@ -68,7 +70,7 @@ Here are the 4 agents designed to collaborate in this project:
    cd financial-analysis
    ```
 
-2. Create a `.env` file in the project directory:
+2. Rename `sample.env` to  `.env` file in the project directory:
    ```env
    ANTHROPIC_API_KEY=your_anthropic_key
    SERPER_API_KEY=your_serper_key
